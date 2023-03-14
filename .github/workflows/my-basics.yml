@@ -6,7 +6,7 @@ name: MyGithubActionsBasics
 on:
   push:
     branches:
-      - master
+      - main
       
 jobs:
   my_testing:
