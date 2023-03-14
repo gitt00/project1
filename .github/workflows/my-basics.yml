@@ -25,6 +25,12 @@ jobs:
           echo "Hello message 2"
           echo "Application name: ${{ env.application_name }}"          
           
+     - name: Git clone by repo
+       uses: actions/checkout@v1
+     
+     - name: List current folder
+       run: ls -la
+  
   
   my_deploy:
     runs-on: ubuntu-latest
