@@ -2,6 +2,9 @@
 #
 #by VE
 name: MyGithubActionsBasics
+env:
+  application_name
+  key: [ ]
 
 on:
   push:
